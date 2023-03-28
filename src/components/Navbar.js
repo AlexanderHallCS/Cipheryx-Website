@@ -2,16 +2,20 @@ import React, { useState } from 'react'
 import '../styles/Navbar.css'
 import Dropdown from './Dropdown'
 import { Link } from 'react-router-dom'
+import { AppMenuItems, AppPrivacyItems } from './MenuItems';
 
 function Navbar() {
     const [click, setClick] = useState(false);
-    const [dropdown, setDropdown] = useState(false);
+    const [appDropdown, setAppDropdown] = useState(false);
+    const [appPrivacyDropdown, setAppPrivacyDropdown] = useState(false);
 
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
 
-    const onMouseEnter = () => window.innerWidth < 960 ? setDropdown(false) : setDropdown(true);
-    const onMouseLeave = () => setDropdown(false);
+    const onMouseEnterAppDropdown = () => window.innerWidth < 960 ? setAppDropdown(false) : setAppDropdown(true);
+    const onMouseLeaveAppDropdown = () => setAppDropdown(false);
+    const onMouseEnterAppPrivacyDropdown = () => window.innerWidth < 960 ? setAppPrivacyDropdown(false) : setAppPrivacyDropdown(true);
+    const onMouseLeaveAppPrivacyDropdown = () => setAppPrivacyDropdown(false);
 
     return (
         <>
@@ -29,12 +33,20 @@ function Navbar() {
                         </Link>
                     </li>
                     <li className='nav-item'
-                        onMouseEnter={onMouseEnter}
-                        onMouseLeave={onMouseLeave}>
+                        onMouseEnter={onMouseEnterAppDropdown}
+                        onMouseLeave={onMouseLeaveAppDropdown}>
                         <Link to='/apps' className='nav-links' onClick={closeMobileMenu}>
                             Apps <i className='fas fa-caret-down'/>
                         </Link>
-                        {dropdown && <Dropdown/>}
+                        {appDropdown && <Dropdown menuItems={AppMenuItems} />}
+                    </li>
+                    <li className='nav-item'
+                        onMouseEnter={onMouseEnterAppPrivacyDropdown}
+                        onMouseLeave={onMouseLeaveAppPrivacyDropdown}>
+                        <Link to='/app-privacy' className='nav-links' onClick={closeMobileMenu}>
+                            App Privacy <i className='fas fa-caret-down'/>
+                        </Link>
+                        {appPrivacyDropdown && <Dropdown menuItems={AppPrivacyItems} />}
                     </li>
                 </ul>
             </nav>
