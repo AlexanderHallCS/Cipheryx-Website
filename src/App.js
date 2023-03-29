@@ -19,14 +19,15 @@ function App() {
   return (
     <>
         <Navbar/>
-        <div style={divBGStyle} />
-        <Routes>
-            <Route path="/" element={<Home />}/>
-            <Route path="/apps" element={<Apps />}/>
-            <Route path="/app-privacy" element={<AppPrivacy />}/>
-            <Route path="/apps/flappy-ohio" element={<FlappyOhioHome />}/>
-            <Route path="/apps/flappy-ohio/privacy" element={<FlappyOhioPrivacy />}/>
-        </Routes>
+        <div style={divBGStyle}>
+            <Routes>
+                <Route path="/" element={<Home />}/>
+                <Route path="/apps" element={<Apps />}/>
+                <Route path="/app-privacy" element={<AppPrivacy />}/>
+                <Route path="/apps/flappy-ohio" element={<FlappyOhioHome />}/>
+                <Route path="/apps/flappy-ohio/privacy" element={<FlappyOhioPrivacy />}/>
+            </Routes>
+        </div>
     </>
   );
 }
