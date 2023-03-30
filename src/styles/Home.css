@@ -1,0 +1,29 @@
+.home-title {
+    -webkit-text-stroke: 0.5rem black;
+    color: white;
+    font-size: 10rem;
+    text-align: center;
+}
+
+.home-subtitle {
+    -webkit-text-stroke: 0.3rem black;
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.yt-button {
+    width: 20%;
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translate(100%, 20%);
+}
+
+.twitch-button {
+    width: 20%;
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translate(200%, 10%);
+}
