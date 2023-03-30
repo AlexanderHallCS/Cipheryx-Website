@@ -1,7 +1,10 @@
 import React from 'react';
+import "../../../styles/Common.css"
 
 export default function FlappyOhioHome() {
     return (
-        <h1>Flappy Ohio Home</h1>
+        <h1 className="common-title">
+            Flappy Ohio
+        </h1>
     )
 }
