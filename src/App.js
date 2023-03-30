@@ -13,7 +13,7 @@ const divBGStyle = {
     height: '100vh',
     backgroundImage: `url(${BG})`,
     backgroundSize: 'cover'
-  };
+};
 
 function App() {
   return (

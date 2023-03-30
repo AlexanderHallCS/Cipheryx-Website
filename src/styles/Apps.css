@@ -1,0 +1,21 @@
+.apps-table {
+    
+}
+
+table, th, td {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px;
+}
+
+td {
+    padding: 5px;
+}
+
+.app-icon {
+    width: 8vw;
+}
