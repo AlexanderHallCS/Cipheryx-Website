@@ -15,13 +15,15 @@ export default function Apps() {
             <table>
                 <thead>
                     <tr>
-                        <th><b>Flappy Ohio</b></th>
+                        <th><b>Name</b></th>
+                        <th><b>App Icon</b></th>
                         <th><b>App Store Link</b></th>
                         <th><b>More Information</b></th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr style={{ border: "1px solid black" }}>
+                        <td>Flappy Ohio</td>
                         <td><img className="app-icon" alt="flappy ohio app icon" src={FlappyOhioAppIcon}/></td>
                         {/* TODO: Update link */}
                         <td><a href="/apps">Link</a></td>
