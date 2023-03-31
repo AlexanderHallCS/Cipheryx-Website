@@ -15,3 +15,18 @@ td {
 .app-icon {
     width: 8vw;
 }
+
+.app-screenshot {
+    margin: 0 auto 0 6.5vw;
+    width: 11.8vw;
+    border: 2px solid black;
+}
+
+.app-description {
+    -webkit-text-stroke: 0.2vw black;
+    color: white;
+    font-size: 3vw;
+    max-width: 80vw;
+    margin: 5vh auto auto auto;
+    text-align: center;
+}

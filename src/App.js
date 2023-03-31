@@ -12,7 +12,7 @@ const divBGStyle = {
     width: '100vw',
     height: '100vh',
     backgroundImage: `url(${BG})`,
-    backgroundSize: 'cover'
+    backgroundSize: 'cover',
 };
 
 function App() {

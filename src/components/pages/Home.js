@@ -11,7 +11,7 @@ export default function Home() {
                 CIPHERYX
             </h1>
             <h2 className="home-subtitle">
-            - VTuber and iOS Developer :)
+                - VTuber and iOS Developer :)
             </h2>
             <a href="https://www.youtube.com/@cipheryx" target="_blank" rel="noreferrer">
                 <img className="yt-button" alt="youtube link" src={YTButton}/>

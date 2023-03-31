@@ -13,17 +13,21 @@ export default function Apps() {
             <br/>
             <br/>
             <table>
-                <tr>
-                    <th><b>Flappy Ohio</b></th>
-                    <th><b>App Store Link</b></th>
-                    <th><b>More Information</b></th>
-                </tr>
-                <tr style={{ border: "1px solid black" }}>
-                    <td><img className="app-icon" alt="flappy ohio app icon" src={FlappyOhioAppIcon}/></td>
-                    {/* TODO: Update link */}
-                    <td><a href="/apps">Link</a></td>
-                    <td><a href="/apps/flappy-ohio">Link</a></td>
-                </tr>
+                <thead>
+                    <tr>
+                        <th><b>Flappy Ohio</b></th>
+                        <th><b>App Store Link</b></th>
+                        <th><b>More Information</b></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style={{ border: "1px solid black" }}>
+                        <td><img className="app-icon" alt="flappy ohio app icon" src={FlappyOhioAppIcon}/></td>
+                        {/* TODO: Update link */}
+                        <td><a href="/apps">Link</a></td>
+                        <td><a href="/apps/flappy-ohio">Link</a></td>
+                    </tr>
+                </tbody>
             </table>
         </>
     )

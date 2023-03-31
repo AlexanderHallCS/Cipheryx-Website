@@ -1,6 +1,6 @@
 .common-title {
-    -webkit-text-stroke: 0.3rem black;
+    -webkit-text-stroke: 0.4vw black;
     color: white;
-    font-size: 5rem;
+    font-size: 6vw;
     text-align: center;
 }
