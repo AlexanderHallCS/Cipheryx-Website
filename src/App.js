@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar"
-import { Navigate, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Home from "./components/pages/Home";
 import Apps from "./components/pages/Apps";
 import AppPrivacy from "./components/pages/AppPrivacy";
@@ -22,7 +22,6 @@ function App() {
         <Navbar/>
         <Routes>
             <Route path="/" element={<div style={divBGStyle}><Home /></div>}/>
-            <Route path="/Cipheryx-Website/" element={<Navigate to="/"/>}/>
             <Route path="/apps" element={<div style={divBGStyle}><Apps /></div>}/>
             <Route path="/app-privacy" element={<div style={divBGStyle}><AppPrivacy /></div>}/>
             <Route path="/apps/flappy-ohio" element={<div style={divBGStyle}><FlappyOhioHome /></div>}/>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import "../../styles/Common.css"
 import "../../styles/Apps.css"
 
@@ -26,8 +27,8 @@ export default function Apps() {
                         <td>Flappy Ohio</td>
                         <td><img className="app-icon" alt="flappy ohio app icon" src={FlappyOhioAppIcon}/></td>
                         {/* TODO: Update link */}
-                        <td><a href="/apps">Link</a></td>
-                        <td><a href="/apps/flappy-ohio">Link</a></td>
+                        <td><Link to="/apps">Link</Link></td>
+                        <td><Link to="/apps/flappy-ohio">Link</Link></td>
                     </tr>
                 </tbody>
             </table>
