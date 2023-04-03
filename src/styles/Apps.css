@@ -13,7 +13,11 @@ td {
 }
 
 .app-icon {
-    width: 8vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10vh;
+    height: 10vh;
 }
 
 .app-screenshot {
