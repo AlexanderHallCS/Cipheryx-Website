@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Cipheryx-Website/static/css/main.ef5cef6a.css",
+    "main.css": "/Cipheryx-Website/static/css/main.5f8a2c34.css",
     "main.js": "/Cipheryx-Website/static/js/main.1a4dfdc7.js",
     "static/media/start.png": "/Cipheryx-Website/static/media/start.e4c86a1e68522ada86e8.png",
     "static/media/gameplay1.png": "/Cipheryx-Website/static/media/gameplay1.ab59702ad532b9e551fa.png",
@@ -12,11 +12,11 @@
     "static/media/YTButton.png": "/Cipheryx-Website/static/media/YTButton.b94260c134c5ef7c2377.png",
     "static/media/BG.jpg": "/Cipheryx-Website/static/media/BG.3220b8195ea91efeb79b.jpg",
     "index.html": "/Cipheryx-Website/index.html",
-    "main.ef5cef6a.css.map": "/Cipheryx-Website/static/css/main.ef5cef6a.css.map",
+    "main.5f8a2c34.css.map": "/Cipheryx-Website/static/css/main.5f8a2c34.css.map",
     "main.1a4dfdc7.js.map": "/Cipheryx-Website/static/js/main.1a4dfdc7.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef5cef6a.css",
+    "static/css/main.5f8a2c34.css",
     "static/js/main.1a4dfdc7.js"
   ]
 }
