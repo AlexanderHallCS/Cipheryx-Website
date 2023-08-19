@@ -26,7 +26,7 @@ export default function Apps() {
                     <tr style={{ border: "1px solid black" }}>
                         <td>Stretchy Ohio</td>
                         <td><img className="app-icon" alt="stretchy ohio app icon" src={StretchyOhioAppIcon}/></td>
-                        <td><Link to="https://apps.apple.com/us/app/stretchy-ohio/id6446421780?platform=iphone">Link</Link></td>
+                        <td><Link to="https://apps.apple.com/us/app/stretchy-ohio/id6446421780?platform=iphone" target="_blank">Link</Link></td>
                         <td><Link to="/apps/flappy-ohio">Link</Link></td>
                     </tr>
                 </tbody>
