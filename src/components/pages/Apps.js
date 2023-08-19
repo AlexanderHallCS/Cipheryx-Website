@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import "../../styles/Common.css"
 import "../../styles/Apps.css"
 
-const FlappyOhioAppIcon = require("../../images/app_icons/FlappyOhioAppIcon.png")
+const StretchyOhioAppIcon = require("../../images/app_icons/StretchyOhioAppIcon.png")
 
 export default function Apps() {
     return (
@@ -24,10 +24,9 @@ export default function Apps() {
                 </thead>
                 <tbody>
                     <tr style={{ border: "1px solid black" }}>
-                        <td>Flappy Ohio</td>
-                        <td><img className="app-icon" alt="flappy ohio app icon" src={FlappyOhioAppIcon}/></td>
-                        {/* TODO: Update link */}
-                        <td><Link to="/apps">Link</Link></td>
+                        <td>Stretchy Ohio</td>
+                        <td><img className="app-icon" alt="stretchy ohio app icon" src={StretchyOhioAppIcon}/></td>
+                        <td><Link to="https://apps.apple.com/us/app/stretchy-ohio/id6446421780?platform=iphone">Link</Link></td>
                         <td><Link to="/apps/flappy-ohio">Link</Link></td>
                     </tr>
                 </tbody>

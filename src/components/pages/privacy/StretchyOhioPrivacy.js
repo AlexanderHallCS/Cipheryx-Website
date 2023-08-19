@@ -1,15 +1,15 @@
 import React from 'react';
 import "../../../styles/PrivacyPolicy.css"
 
-export default function FlappyOhioPrivacy() {
+export default function StretchyOhioPrivacy() {
     return (
         <div style={{backgroundColor: '#4c4747'}}>
             <h1 className="common-title">
-                Flappy Ohio Privacy
+                Stretchy Ohio Privacy
             </h1>
             <div className="privacy-policy">
                 <strong>Privacy Policy</strong> <p>
-                    Alexander Hall built the Flappy Ohio app as
+                    Alexander Hall built the Stretchy Ohio app as
                     an Ad Supported app. This SERVICE is provided by
                     Alexander Hall at no cost and is intended for use as
                     is.
@@ -26,7 +26,7 @@ export default function FlappyOhioPrivacy() {
                 </p> <p>
                     The terms used in this Privacy Policy have the same meanings
                     as in our Terms and Conditions, which are accessible at
-                    Flappy Ohio unless otherwise defined in this Privacy Policy.
+                    Stretchy Ohio unless otherwise defined in this Privacy Policy.
                 </p> <p><strong>Information Collection and Use</strong></p> <p>
                     For a better experience, while using our Service, I
                     may require you to provide us with certain personally

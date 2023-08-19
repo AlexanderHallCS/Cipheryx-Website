@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const FlappyOhioAppIcon = require("../../images/app_icons/FlappyOhioAppIcon.png")
+const StretchyOhioAppIcon = require("../../images/app_icons/StretchyOhioAppIcon.png")
 
 export default function AppPrivacy() {
     return (
@@ -21,8 +21,8 @@ export default function AppPrivacy() {
                 </thead>
                 <tbody>
                     <tr style={{ border: "1px solid black" }}>
-                        <td>Flappy Ohio</td>
-                        <td><img className="app-icon" alt="flappy ohio app icon" src={FlappyOhioAppIcon}/></td>
+                        <td>Stretchy Ohio</td>
+                        <td><img className="app-icon" alt="stretchy ohio app icon" src={StretchyOhioAppIcon}/></td>
                         <td><Link to="/apps/flappy-ohio/privacy">Link</Link></td>
                     </tr>
                 </tbody>
