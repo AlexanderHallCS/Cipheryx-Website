@@ -1,7 +1,7 @@
 export const AppMenuItems = [
     {
         title: 'Stretchy Ohio',
-        path: '/apps/flappy-ohio',
+        path: '/apps/stretchy-ohio',
         cName: 'dropdown-link'
     }
 ]
@@ -9,7 +9,7 @@ export const AppMenuItems = [
 export const AppPrivacyItems = [
     {
         title: 'Stretchy Ohio',
-        path: '/apps/flappy-ohio/privacy',
+        path: '/apps/stretchy-ohio/privacy',
         cName: 'dropdown-link'
     }
 ]

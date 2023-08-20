@@ -24,8 +24,8 @@ function App() {
             <Route path="/" element={<div style={divBGStyle}><Home /></div>}/>
             <Route path="/apps" element={<div style={divBGStyle}><Apps /></div>}/>
             <Route path="/app-privacy" element={<div style={divBGStyle}><AppPrivacy /></div>}/>
-            <Route path="/apps/flappy-ohio" element={<div style={divBGStyle}><StretchyOhioHome /></div>}/>
-            <Route path="/apps/flappy-ohio/privacy" element={<StretchyOhioPrivacy />}/>
+            <Route path="/apps/stretchy-ohio" element={<div style={divBGStyle}><StretchyOhioHome /></div>}/>
+            <Route path="/apps/stretchy-ohio/privacy" element={<StretchyOhioPrivacy />}/>
         </Routes>
         <Attribution />
     </>

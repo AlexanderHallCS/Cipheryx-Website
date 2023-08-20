@@ -23,7 +23,7 @@ export default function AppPrivacy() {
                     <tr style={{ border: "1px solid black" }}>
                         <td>Stretchy Ohio</td>
                         <td><img className="app-icon" alt="stretchy ohio app icon" src={StretchyOhioAppIcon}/></td>
-                        <td><Link to="/apps/flappy-ohio/privacy">Link</Link></td>
+                        <td><Link to="/apps/stretchy-ohio/privacy">Link</Link></td>
                     </tr>
                 </tbody>
             </table>

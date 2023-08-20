@@ -27,7 +27,7 @@ export default function Apps() {
                         <td>Stretchy Ohio</td>
                         <td><img className="app-icon" alt="stretchy ohio app icon" src={StretchyOhioAppIcon}/></td>
                         <td><Link to="https://apps.apple.com/us/app/stretchy-ohio/id6446421780?platform=iphone" target="_blank">Link</Link></td>
-                        <td><Link to="/apps/flappy-ohio">Link</Link></td>
+                        <td><Link to="/apps/stretchy-ohio">Link</Link></td>
                     </tr>
                 </tbody>
             </table>
